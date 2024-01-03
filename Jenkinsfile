@@ -24,5 +24,17 @@ pipeline {
       }
     }
 
+    stage('d') {
+      steps {
+        sh 'd'
+      }
+    }
+
+    stage('e') {
+      steps {
+        sh 'e'
+      }
+    }
+
   }
 }
