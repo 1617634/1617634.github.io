@@ -5,13 +5,13 @@ pipeline {
       parallel {
         stage('a') {
           steps {
-            sh 'a'
+            sh 'echo "Hello, World!a"'
           }
         }
 
         stage('b') {
           steps {
-            sh 'b'
+            sh 'echo "Hello, World!b"'
           }
         }
 
