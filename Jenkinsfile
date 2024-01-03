@@ -20,19 +20,19 @@ pipeline {
 
     stage('c') {
       steps {
-        sh 'c'
+        sh 'echo "Hello, World!a"'
       }
     }
 
     stage('d') {
       steps {
-        sh 'd'
+        sh 'echo "Hello, World!a"'
       }
     }
 
     stage('e') {
       steps {
-        sh 'e'
+        sh 'echo "Hello, World!a"'
       }
     }
 
